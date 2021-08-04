@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(238, 209, 169);
+}
+.card {
+    box-shadow: 0 50px 50px 20px rgba(230, 53, 53, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title{
+    color: grey;
+    font-size: 18px;
+}
+.me{
+    padding: 1.5em;
+}
+  
+button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a.twitter{
+    padding: 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+a.instagram{
+    padding: 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+a.spotify{
+    padding: 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+a.wordpress{
+    padding: 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+a.snapchat{
+    padding: 3px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+  
+button:hover, a:hover{
+    opacity: 0.7;
+}
+.spotify:hover{
+    color: rgb(19, 109, 19);
+}
+.twitter:hover{
+    color: rgb(30, 33, 202);
+}
+.instagram:hover{
+    color: rgb(182, 31, 107);
+}
+.wordpress:hover{
+    color: rgb(30, 33, 202);
+}
+.snapchat:hover{
+    color: rgb(183, 196, 14);
+}
